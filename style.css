@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+.slider{
+    height: 700px;
+    padding-top: 180px;
+    background: url(images/cover/cover-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider_2{
+   background: url(images/cover/cover-2.jpg) ;
+   height: 700px;
+   padding-top: 180px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.slider_3{
+    background: url(images/cover/cover-3.jpg);
+    height: 700px;
+    padding-top: 180px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    width: 30%;
+    margin: auto;
+}
+.bannar_title{
+    width: 30%;
+    margin: auto;
+}
+.description{
+    width: 50%;
+    margin: auto;
+}
+.logo{
+    display: flex;
+}
+.heading{
+    width:30%;
+    margin: auto;
+}
+.title{
+    width: 70%;
+    margin: auto;
+}
+.meet_text{
+    width: 50%;
+    font-size: 50px;
+    /* margin: auto; */
+}
+.meet_lorem{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 60%;
+}
+@media screen and (max-width:576px) {
+    .heading{
+     font-size: 10px;
+    }
+    .bannar_title{
+        width: 80%;
+        margin: auto;
+    }
+    .logo{
+        display: none;
+    }
+   .description{
+    width: 80%;
+    margin: auto;
+   }
+   .heading{
+    width: 80%;
+    margin: auto;
+   }
+   .title{
+    width: 100%;
+    margin: auto;
+   }
+   .main_line{
+    text-align: center;
+   }
+   .meet_text{
+    width: 100%;
+    font-size: 30px; 
+   }
+ .meet_lorem{
+    width: 100%;
+   }
+   .Read_more{
+    margin-bottom: 20px;
+    margin-left: 50px;
+   } 
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .logo{
+        display: none;
+    }
+    .bannar_title{
+        width: 50%;
+        margin: auto;
+    }
+    .description{
+        width: 50%;
+        margin: auto;
+    }
+    .heading{
+        width: 50%;
+        margin: auto;
+    }
+    .Explore{
+        width: 100%;
+        font-size: 40px;
+    }
+    .meet_text{
+        width: 70%;
+    }
+    .Read_more{
+        margin-bottom: 20px;
+    }
+    .man_images{
+        height: 100%;
+    }    
+}
